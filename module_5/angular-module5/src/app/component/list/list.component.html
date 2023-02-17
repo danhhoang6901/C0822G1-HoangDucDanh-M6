@@ -1,0 +1,62 @@
+<div align="center">
+  <h1>Danh sách bệnh án</h1>
+  <button class="btn btn-primary" routerLink="/create">Thêm mới</button>
+  <p style="color: red;font-weight: bold">{{msg}}</p>
+</div>
+<table class="table table-striped table-bordered" style="width: 100%;margin-top: 10px">
+  <thead>
+  <tr>
+    <th scope="col">STT</th>
+    <th scope="col">Mã bệnh án</th>
+    <th scope="col">Mã bệnh nhân</th>
+    <th scope="col">Tên bệnh nhân</th>
+    <th scope="col">Ngày nhập viện</th>
+    <th scope="col">Ngày ra viện</th>
+    <th scope="col">Lý do nhập viện</th>
+    <th scope="col">Phương pháp điều trị</th>
+    <th scope="col">Bác sĩ điều trị</th>
+    <th scope="col">Tác vụ</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let ba of benhAn ;index as i">
+    <td>{{i + 1}}</td>
+    <td>{{ba.maBenhAn}}</td>
+    <td>{{ba.tenBenhNhan.maBenhNhan}}</td>
+    <td>{{ba.tenBenhNhan.tenBenhNhan}}</td>
+    <td>{{ba.ngayNhapVien}}</td>
+    <td>{{ba.ngayRaVien}}</td>
+    <td>{{ba.lyDoNhapVien}}</td>
+    <td>{{ba.phuongPhapDieuTri}}</td>
+    <td>{{ba.bacSiDieuTri}}</td>
+    <td>
+      <button [routerLink]="['/edit',ba.id]" class="btn btn-primary"><i
+        class="fa-solid fa-pen-to-square"></i> Chỉnh sửa
+      </button>
+      <button (click)="temp=ba" style="margin-left: 10px" type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#exampleModal"><i
+        class="fa-solid fa-delete-left"></i> Xóa
+      </button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Xóa bệnh án</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Bạn có muốn xóa thông tin bệnh án <span>{{temp.maBenhAn}}</span>  này không ?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button (click)="delete(temp.id)" type="submit" class="btn btn-danger" data-bs-dismiss="modal">
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

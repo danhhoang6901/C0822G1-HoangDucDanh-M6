@@ -1,0 +1,43 @@
+<div align="center">
+  <h1>Thêm mới bệnh án</h1>
+  <a routerLink="" role="button" class="btn btn-primary">Trở về</a>
+</div>
+<form [formGroup]="benhAnForm" (ngSubmit)="create()">
+<div class="mb-3">
+  <label>Mã bệnh án:</label>
+  <input class="form-control" type="text">
+</div>
+<div class="mb-3">
+  <label>Ngày nhập viện:</label>
+  <input class="form-control" type="date">
+</div>
+<div class="mb-3">
+  <label>Ngày ra viện:</label>
+  <input class="form-control" type="date">
+</div>
+<div class="mb-3">
+  <label>Lý do nhập viện:</label>
+  <input class="form-control" type="text">
+</div>
+<div class="mb-3">
+  <label>Phương pháp điều trị:</label>
+  <input class="form-control" type="text">
+</div>
+<div class="mb-3">
+  <label>Bác sĩ điều trị:</label>
+  <input class="form-control" type="text">
+</div>
+<div class="mb-3">
+  <label>Bệnh nhân:</label>
+  <select>
+    <option *ngFor="let bn of benhNhan" [ngValue]="bn">{{bn.tenBenhNhan}}</option>
+  </select>
+</div>
+<div class="mb-3">
+  <label>Mã bệnh nhân:</label>
+  <select>
+    <option *ngFor="let bn of benhNhan" [ngValue]="bn">{{bn.maBenhNhan}}</option>
+  </select>
+</div>
+<button class="btn btn-primary" type="submit">Thêm mới</button>
+</form>

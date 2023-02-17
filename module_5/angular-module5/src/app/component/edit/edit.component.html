@@ -1,0 +1,61 @@
+<div align="center">
+  <h1>Chỉnh sửa bệnh án</h1>
+  <a routerLink="" role="button" class="btn btn-primary">Trở lại</a>
+</div>
+<form [formGroup]="benhAnForm" (ngSubmit)="update(id)">
+  <div class="mb-3">
+    <label>Mã bệnh án: </label>
+    <input formControlName="maBenhAn" class="form-control" type="text" readonly>
+  </div>
+  <div class="mb-3">
+    <label>Mã bệnh nhân: </label>
+    <input formControlName="maBenhNhan" class="form-control" type="text" readonly>
+  </div>
+  <div class="mb-3">
+    <label>Tên bệnh nhân:</label>
+    <input formControlName="tenBenhNhan" class="form-control" type="text">
+    <p *ngIf="benhAnForm.controls.tenBenhNhan.hasError('required') && benhAnForm.controls.tenBenhNhan.touched"
+       style="color: red">* Tên bệnh nhân không được để trống
+      số</p>
+    <p *ngIf="benhAnForm.controls.tenBenhNhan.hasError('pattern')" style="color: red">* Tên bệnh nhân không được chứa
+      số</p>
+  </div>
+  <div class="mb-3">
+    <label>Ngày nhập viện:</label>
+    <input formControlName="ngayNhapVien" class="form-control" type="date">
+    <p *ngIf="benhAnForm.controls.ngayNhapVien.hasError('required') && benhAnForm.controls.ngayNhapVien.touched"
+       style="color: red">* Ngày nhập viện không được để trống
+      số</p>
+  </div>
+  <div class="mb-3">
+    <label>Ngày ra viện:</label>
+    <input formControlName="ngayRaVien" class="form-control" type="date">
+    <p *ngIf="benhAnForm.controls.ngayRaVien.hasError('required') && benhAnForm.controls.ngayRaVien.touched"
+       style="color: red">* Ngày ra viện không được để trống
+      số</p>
+    <p style="color: red" *ngIf="benhAnForm.hasError('invalid')">* Ngày ra viện phải sau ngày nhập viện</p>
+  </div>
+  <div class="mb-3">
+    <label>Lý do nhập viện:</label>
+    <input formControlName="lyDoNhapVien" class="form-control" type="text">
+    <p *ngIf="benhAnForm.controls.lyDoNhapVien.hasError('required') && benhAnForm.controls.lyDoNhapVien.touched"
+       style="color: red">* Lý do ra viện không được để trống
+      số</p>
+  </div>
+  <div class="mb-3">
+    <label>Phương pháp điều trị:</label>
+    <input formControlName="phuongPhapDieuTri" class="form-control" type="text">
+    <p
+      *ngIf="benhAnForm.controls.phuongPhapDieuTri.hasError('required') && benhAnForm.controls.phuongPhapDieuTri.touched"
+      style="color: red">* Phương pháp điều trị không được để trống
+      số</p>
+  </div>
+  <div class="mb-3">
+    <label>Bác sĩ điều trị:</label>
+    <input formControlName="bacSiDieuTri" class="form-control" type="text">
+    <p *ngIf="benhAnForm.controls.bacSiDieuTri.hasError('required') && benhAnForm.controls.bacSiDieuTri.touched"
+       style="color: red">* Bác sĩ điều trị không được để trống
+      số</p>
+  </div>
+  <button class="btn btn-primary" type="submit">Chỉnh sửa</button>
+</form>

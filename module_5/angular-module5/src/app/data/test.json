@@ -1,0 +1,30 @@
+{
+  "benhAn": [
+    {
+      "id": 2,
+      "maBenhAn": "BA-002",
+      "ngayNhapVien": "2016-08-07",
+      "ngayRaVien": "2019-08-08",
+      "lyDoNhapVien": "Suy thận mạn",
+      "phuongPhapDieuTri": "Chạy thận",
+      "bacSiDieuTri": "Nguyen Don D",
+      "tenBenhNhan": {
+        "id": 2,
+        "maBenhNhan": "BN-123",
+        "tenBenhNhan": "Nguyen Van C"
+      }
+    }
+  ],
+  "benhNhan": [
+    {
+      "id": 1,
+      "maBenhNhan": "BN-435",
+      "tenBenhNhan": "Nguyen Van A"
+    },
+    {
+      "id": 2,
+      "maBenhNhan": "BN-123",
+      "tenBenhNhan": "Nguyen Van C"
+    }
+  ]
+}
