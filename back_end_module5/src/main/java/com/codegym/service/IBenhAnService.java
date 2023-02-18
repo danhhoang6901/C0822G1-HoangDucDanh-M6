@@ -1,6 +1,8 @@
 package com.codegym.service;
 
 import com.codegym.model.BenhAn;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
@@ -15,4 +17,6 @@ public interface IBenhAnService {
     BenhAn findById(int id);
 
     void update(String bacSiDieuTri, String lyDoNhapVien, String maBenhAn, String ngayNhapVien, String ngayRaVien, String phuongPhapDieuTri, int id);
+
+    Page<BenhAn> getAllPage(Pageable pageable);
 }

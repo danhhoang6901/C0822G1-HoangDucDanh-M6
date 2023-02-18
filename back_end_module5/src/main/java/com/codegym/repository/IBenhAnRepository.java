@@ -1,6 +1,8 @@
 package com.codegym.repository;
 
 import com.codegym.model.BenhAn;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -24,11 +26,14 @@ public interface IBenhAnRepository extends JpaRepository<BenhAn, Integer> {
                       @Param("phuongPhapDieuTri") String phuongPhapDieuTri,
                       @Param("benhNhanId") int benhNhanId);
 
+    @Query(value = "select * from benh_an ba join benh_nhan bn on ba.ten_benh_nhan_id = bn.id", nativeQuery = true)
+    Page<BenhAn> getAllPage(Pageable pageable);
+
     @Modifying
     @Query(value = "delete from benh_an where benh_an.id=:id", nativeQuery = true)
     void deleteId(@Param("id") int id);
 
-    @Query(value = "select * from benh_an where id =:id",nativeQuery = true)
+    @Query(value = "select * from benh_an where id =:id", nativeQuery = true)
     BenhAn findId(@Param("id") int id);
 
     @Modifying
@@ -39,4 +44,5 @@ public interface IBenhAnRepository extends JpaRepository<BenhAn, Integer> {
                     @Param("ngayNhapVien") String ngayNhapVien,
                     @Param("ngayRaVien") String ngayRaVien,
                     @Param("phuongPhapDieuTri") String phuongPhapDieuTri,
-                    @Param("benhNhanId") int benhNhanId);}
+                    @Param("benhNhanId") int benhNhanId);
+}

@@ -4,6 +4,8 @@ import com.codegym.model.BenhAn;
 import com.codegym.repository.IBenhAnRepository;
 import com.codegym.service.IBenhAnService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
 
@@ -37,6 +39,11 @@ public class BenhAnService implements IBenhAnService {
 
     @Override
     public void update(String bacSiDieuTri, String lyDoNhapVien, String maBenhAn, String ngayNhapVien, String ngayRaVien, String phuongPhapDieuTri, int id) {
-        benhAnRepository.editBenhAn(bacSiDieuTri,lyDoNhapVien,maBenhAn,ngayNhapVien,ngayRaVien,phuongPhapDieuTri,id);
+        benhAnRepository.editBenhAn(bacSiDieuTri, lyDoNhapVien, maBenhAn, ngayNhapVien, ngayRaVien, phuongPhapDieuTri, id);
+    }
+
+    @Override
+    public Page<BenhAn> getAllPage(Pageable pageable) {
+        return benhAnRepository.getAllPage(pageable);
     }
 }

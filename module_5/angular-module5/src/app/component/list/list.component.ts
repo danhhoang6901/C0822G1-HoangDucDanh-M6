@@ -11,17 +11,18 @@ export class ListComponent implements OnInit {
   benhAn: BenhAn[] = [];
   temp: BenhAn = {};
   msg = '';
+  number: number;
+  totalPage: number;
+  pageNumber: number[];
+  first: boolean;
+  last: boolean;
 
   constructor(private benhAnService: BenhAnService) {
-    this.benhAnService.getAll().subscribe(next => {
-      this.benhAn = next;
-    })
+    this.getAllPage(this.number);
   }
 
   ngOnInit(): void {
-    this.benhAnService.getAll().subscribe(next => {
-      this.benhAn = next;
-    })
+    this.getAllPage(this.number);
   }
 
   delete(id: number) {
@@ -31,4 +32,14 @@ export class ListComponent implements OnInit {
       this.ngOnInit();
     })
   }
+  getAllPage(page: number) {
+    this.benhAnService.getAll(page).subscribe(next => {
+      this.benhAn = next.content;
+      this.number = next.number;
+      this.totalPage = next.totalPage;
+      this.first = next.first;
+      this.last = next.last;
+    })
+  }
+
 }

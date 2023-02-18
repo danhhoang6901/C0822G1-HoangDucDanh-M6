@@ -10,8 +10,8 @@ export class BenhAnService {
   constructor(private httpClient: HttpClient) {
   }
 
-  getAll(): Observable<any> {
-    return this.httpClient.get<any>("http://localhost:8080/benhAn");
+  getAll(page: number): Observable<any> {
+    return this.httpClient.get<any>("http://localhost:8080/benhAn?page=" + page);
   }
 
   create(benhAn): Observable<any> {

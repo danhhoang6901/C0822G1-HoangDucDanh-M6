@@ -41,6 +41,11 @@
   </tr>
   </tbody>
 </table>
+<div class="text-center m-2">
+  <button class="btn btn-secondary m-2" (click)="getAllPage(number - 1)" *ngIf="last"><<</button>
+  <span>{{number + 1 + '/' + totalPage}}</span>
+  <button class="btn btn-secondary m-2" (click)="getAllPage(number + 1)" *ngIf="first">>></button>
+</div>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
