@@ -38,26 +38,26 @@ body {
     height: 10px;
 }
 
-.image{
+.image {
     transition: transform .2s; /* Animation */
 
 }
 
-.image:hover{
+.image:hover {
     transform: scale(1.1);
 }
 
-.dropdown:hover>.dropdown-menu {
+.dropdown:hover > .dropdown-menu {
     display: block;
 }
 
-.dropdown>.dropdown-toggle:active {
+.dropdown > .dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
 
 body {
-    font-family: Rubik,Arial,sans-serif;
+    font-family: Rubik, Arial, sans-serif;
     font-weight: 400;
     font-size: 1rem;
     overflow-x: hidden;
@@ -67,7 +67,7 @@ body {
 h5 {
     font-size: 1rem;
     line-height: 1.375;
-    font-family: Rubik,Arial,sans-serif;
+    font-family: Rubik, Arial, sans-serif;
     font-weight: 500;
     color: #030929;
 }
@@ -86,4 +86,21 @@ a:hover {
 
 footer {
     background: #ebf4fa;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://xuconcept.com/wp-content/uploads/2018/08/chup-anh-quan-ao-thoi-trang.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text {
+    transition: transform .2s; /* Animation */
+
+}
+
+.text:hover {
+    transform: scale(1.5);
 }

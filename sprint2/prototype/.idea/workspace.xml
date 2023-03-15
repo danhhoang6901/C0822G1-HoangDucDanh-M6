@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,63 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e45b154f-1663-463c-b41e-becd46c67f16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/16567-clean-z3351628479742-f672d13ee8cbddd92d8accb24cd4c7b2-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/32a7af196f0974b250d4a763ea04a512-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ao-so-mi-tay-dai-basic-trang-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tải_xuống-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/áo_hoodie-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/áo_khoác_nam-removebg-preview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../back_end_module5/src/main/java/com/codegym/controller/BenhAnRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../back_end_module5/src/main/java/com/codegym/controller/BenhAnRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/component/commodity/create-commodity/create-commodity.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/component/commodity/create-commodity/create-commodity.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/component/commodity/create-commodity/create-commodity.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/component/commodity/create-commodity/create-commodity.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/component/commodity/edit-commodity/edit-commodity.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/component/commodity/edit-commodity/edit-commodity.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/component/commodity/edit-commodity/edit-commodity.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/component/commodity/edit-commodity/edit-commodity.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/service/commodity.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/service/commodity.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/service/trademark.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/app/service/trademark.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../front_end_commodity/angular-front-end-commodity/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/controller/KhachHangRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/controller/KhachHangRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/controller/KhuVucRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/controller/KhuVucRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/controller/KhungGioChoThueRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/controller/KhungGioChoThueRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/controller/LoaiSanRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/controller/LoaiSanRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/controller/SanBongRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/controller/SanBongRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/dto/SanBongDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/dto/SanBongDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/model/KhachHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/model/KhachHang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/model/KhuVuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/model/KhuVuc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/model/KhungGioChoThue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/model/KhungGioChoThue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/model/LoaiSan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/model/LoaiSan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/model/SanBong.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/model/SanBong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/repository/IKhachHangRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/repository/IKhachHangRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/repository/IKhuVucRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/repository/IKhuVucRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/repository/IKhungGioChoThueRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/repository/IKhungGioChoThueRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/repository/ILoaiSanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/repository/ILoaiSanRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/repository/ISanBongRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/repository/ISanBongRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/IKhachHangService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/IKhachHangService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/IKhuVucService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/IKhuVucService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/IKhungGioChoThueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/IKhungGioChoThueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/ILoaiSanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/ILoaiSanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/ISanBongService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/ISanBongService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/impl/KhachHangService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/impl/KhachHangService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/impl/KhuVucService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/impl/KhuVucService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/impl/KhungGioChoThueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/impl/KhungGioChoThueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/impl/LoaiSanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/impl/LoaiSanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/impl/SanBongService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/back_end/src/main/java/com/codegym/service/impl/SanBongService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototype/create/create_commodity_information.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../prototype/create/create_commodity_information.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototype/create/edit_commodity_information.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../prototype/create/edit_commodity_information.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sprint1/back_end_commodity/src/main/java/com/codegym/controller/CommodityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sprint1/back_end_commodity/src/main/java/com/codegym/controller/CommodityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sprint1/back_end_commodity/src/main/java/com/codegym/dto/CommodityDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sprint1/back_end_commodity/src/main/java/com/codegym/dto/CommodityDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sprint1/back_end_commodity/src/main/java/com/codegym/model/Commodity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sprint1/back_end_commodity/src/main/java/com/codegym/model/Commodity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sprint1/back_end_commodity/src/main/java/com/codegym/repository/ICommodityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../sprint1/back_end_commodity/src/main/java/com/codegym/repository/ICommodityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sprint1/back_end_commodity/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../sprint1/back_end_commodity/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quàn_nữ-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/áo_hoodie_nữ-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/áo_khoác_nư-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/áo_thun_nữ-removebg-preview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/home_page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +47,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2N2Uc4MYDVb04Gh49J8AgsnVnT5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -102,28 +58,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../prototype/create" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/C0822G1-HoangDucDanh-M6/sprint2/prototype",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C0822G1-HoangDucDanh-M6\sprint2\prototype" />
       <recent name="E:\C0822G1-HoangDucDanh-M6\sprint2\prototype" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\C0822G1-HoangDucDanh-M6\sprint2\prototype" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -135,11 +92,12 @@
       <option name="presentableId" value="Default" />
       <updated>1678861746782</updated>
       <workItem from="1678861748123" duration="12646000" />
+      <workItem from="1678878057211" duration="6633000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
