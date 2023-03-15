@@ -1,0 +1,89 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    min-height: 100vh;
+    background: #fafafa;
+}
+
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.progress {
+    height: 10px;
+}
+
+.image{
+    transition: transform .2s; /* Animation */
+
+}
+
+.image:hover{
+    transform: scale(1.1);
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+body {
+    font-family: Rubik,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    overflow-x: hidden;
+    color: #607289;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.375;
+    font-family: Rubik,Arial,sans-serif;
+    font-weight: 500;
+    color: #030929;
+}
+
+a {
+    color: #818494;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    background: #ebf4fa;
+}
