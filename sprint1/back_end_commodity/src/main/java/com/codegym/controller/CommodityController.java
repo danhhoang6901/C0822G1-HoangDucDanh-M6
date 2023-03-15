@@ -3,7 +3,6 @@ package com.codegym.controller;
 import com.codegym.dto.CommodityDto;
 import com.codegym.model.Commodity;
 import com.codegym.service.ICommodityService;
-import com.codegym.service.ITrademarkService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -47,12 +46,15 @@ public class CommodityRestController {
      * Function: find commodity by id
      *
      * @param id
-     * @return HttpStatus.OK if id is found
+     * @return HttpStatus.BAD_REQUEST if id is not found or HttpStatus.OK if id is found
      */
 
     @GetMapping("{id}")
     public ResponseEntity<Commodity> findById(@PathVariable("id") Integer id) {
         Commodity commodity = commodityService.findCommodity(id);
+        if (commodity == null) {
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
         return new ResponseEntity<>(commodity, HttpStatus.OK);
     }
 
